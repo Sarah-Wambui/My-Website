@@ -1,8 +1,74 @@
 body {
-    background : pink;
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
 }
-h1 {
+.navbar {
+    background: rgb(22, 22, 22);
+
+}
+.navbar-brand{
+    color: white;
+    font: bold 30px Arial;
+}
+.nav-brand, 
+.nav-link {
+    color: black;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+    border: 2px solid black;
+    color: white;
+    background: green;
+}
+.nav-link:hover {
+    background: coral;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url("images/Code.jpg");
+    height: 20px;
+    
+}
+.description {
+    padding-top: 50px;
+}
+.description h1 {
+    font: bold 150px Garamond;
+}
+.description p {
+    font:  bold 40px Courier;
+}
+.container h2 {
+    font: 60px Georgia;
+    text-align: center; 
+    padding: 50px;
+}
+.numbers {
+    font: 20px Arial;
+}
+.contact p {
+    font: 20px New Times Romans;
+}
+.pic {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  float: right
+}
+.snap h4 {
     text-align: center;
-    text-decoration: underline black solid 7px;
-    color: red
+}
+.about p {
+    font: 20px Verdana;
+    word-spacing: 3px;
+}
+
+.about h2 {
+    text-decoration: underline black 5px solid;;
+}
+.foot {
+    padding: 70px;
 }
